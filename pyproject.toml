@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lp-base"
+version = "0.1.0"
+description = ""
+authors = ["jeanmarinho529 <jeanmarinho529@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+css-html-js-minify = "^2.5.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
