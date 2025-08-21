@@ -495,10 +495,11 @@ swiper-slide {
 
 .ask a {
     font-family: "Eina03-Bold";
-    /* font-size: 20px; */
     font-style: normal;
-    /* font-weight: 400; */
-    /* line-height: 28px; */
+}
+
+.ask a.btn {
+    font-family: "Eina03-Regular";
 }
 
 /* .ask button {
