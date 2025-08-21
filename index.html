@@ -38,13 +38,6 @@
 
 <body data-bs-theme="light">
 
-  <!-- <h2 class="secondary-color">ola mundo</h2>
-  <h3 class="text-secondary">ola</h3>
-
-  <p class="text-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint. Non optio reiciendis
-    nobis repudiandae corrupti sed esse vel, provident illum debitis animi? Obcaecati, recusandae magni? Mollitia
-    commodi eos nulla.</p> -->
-
   <div class="top-bar"></div>
 
   <div class="background bg-secondary">
@@ -59,45 +52,47 @@
               </a>
             </li>
 
-            <li class="nav-item d-none d-lg-block"><a href="" class="nav-link">Sobre</a></li>
-            <li class="nav-item d-none d-lg-block"><a href="" class="nav-link">Certificados digitais</a></li>
-            <li class="nav-item d-none d-lg-block"><a href="" class="nav-link">Conteúdos</a></li>
-            <li class="nav-item d-none d-lg-block"><a href="" class="nav-link">Contato</a></li>
+            <li class="nav-item d-none d-lg-block"><a href="#sobre" class="nav-link"><strong>Sobre</strong></a></li>
+            <li class="nav-item d-none d-lg-block"><a href="#certificados-digitais"
+                class="nav-link"><strong>Certificados
+                  digitais</strong></a></li>
+            <li class="nav-item d-none d-lg-block"><a href="#conteudos" class="nav-link"><strong>Conteúdos</strong></a>
+            </li>
+            <li class="nav-item d-none d-lg-block"><a href="" class="nav-link"><strong>Contato</strong></a></li>
           </ul>
         </div>
       </nav>
     </header>
 
     <section class="first-page">
-      <div class="container container-fluidd">
-        <div class="row pt-3">
-          <div class="col-12 col-md-6 ps-5">
-            <!-- <p>Redescubra o Prazer de Sorrir.</p> -->
-            <h1 class="pt-3 pb-3">Implante Dentário em Natal: Seu Sorriso Restaurado com Conforto, Tecnologia e
-              Segurança</h1>
+      <div class="row pt-3">
+        <div class="col-md-1 d-none d-md-block"></div>
+        <div class="first-page-container col-12 col-md-5 ">
+          <h1 class="pt-3 pb-3">Implante Dentário em Natal: Seu Sorriso Restaurado com Conforto, Tecnologia e
+            Segurança</h1>
 
-            <p class="pb-4">a Implantare Clinic, combinamos a expertise clínica com mais de 3.000 sorrisos
-              transformados
-              e o que há
-              de
-              mais moderno em odontologia digital para transformar seu sorriso com conforto, agilidade e precisão.
-            </p>
-            <button class="btn btn-primary">Agendar consulta</button>
-          </div>
-          <div class="col-12 col-md-6 text-end p-0 d-block d-md-none">
-            <!-- width="555" height="615" -->
-            <img src="./assets/images/abc.png" class="img-fluid">
-          </div>
+          <p class="pb-4">a Implantare Clinic, combinamos a expertise clínica com mais de 3.000 sorrisos
+            transformados
+            e o que há
+            de
+            mais moderno em odontologia digital para transformar seu sorriso com conforto, agilidade e precisão.
+          </p>
+          <!-- btn btn-primary w-100 w-md-auto -->
+          <button class="btn btn-primary">Agendar consulta</button>
+
+        </div>
+
+        <div class="col-12 col-md-6 text-end p-0 ">
+          <!-- width="555" height="615" -->
+          <img src="./assets/images/abc.png" class="img-fluid">
         </div>
       </div>
     </section>
+
+  </div>
   </div>
 
-
-
-
-
-  <section class="video bg-secondary">
+  <section id="sobre" class="video bg-secondary">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12 col-lg-6">
@@ -115,15 +110,15 @@
     </div>
   </section>
 
-  <section class="benefit">
-    <div class="container my-5">
+  <section id="certificados-digitais" class="benefit">
+    <div class="container py-5">
       <div class="text-center">
         <h1>Convencional x Digital</h1>
-        <p>Na Implantare, cada detalhe do seu tratamento é pensado com tecnologia.
+        <p class="mx-auto">Na Implantare, cada detalhe do seu tratamento é pensado com tecnologia.
           Veja por que a odontologia digital supera o modelo convencional em conforto, agilidade e previsibilidade.</p>
       </div>
 
-      <div class="benefit-table table-responsive">
+      <div class="benefit-table table-responsive mt-5">
         <table class="table text-center align-middle mb-0">
           <colgroup>
             <col style="width: 33.33%;">
@@ -133,16 +128,21 @@
           <thead>
             <tr>
               <th class="border-end">
-                <svg xmlns="http://www.w3.org/2000/svg" width="69" height="68" viewBox="0 0 69 68" fill="none">
-                  <path
-                    d="M34.929 2.01257C52.9287 2.01257 67.4768 16.3489 67.4768 33.9794C67.4767 51.6097 52.9286 65.9462 34.929 65.9462C16.9294 65.946 2.38219 51.6096 2.38208 33.9794C2.38208 16.349 16.9294 2.01275 34.929 2.01257Z"
-                    fill="#F5F5F5" stroke="white" stroke-width="3" />
-                </svg>
+                <br>
                 <br>
                 Aspectos
+                <img src="./assets/icons/Group 58.png" class="img-fluid">
               </th>
-              <th>Odontologia Convencional</th>
+              <th>
+                <br>
+                <br>
+                Odontologia Convencional
+                <img src="./assets/icons/Group 59.png" class="img-fluid">
+              </th>
               <th class="last-column bg-primary text-white">
+                <br>
+                <br>
+                <img src="./assets/icons/Group 60.png" class="img-fluid">
                 Odontologia Digital (Implantare)
               </th>
             </tr>
@@ -150,7 +150,7 @@
           <tbody>
             <tr>
               <td class="border-end">Moldagem</td>
-              <td>Materiais desconfortáveis, risco de erro></td>
+              <td>Materiais desconfortáveis, risco de erro</td>
               <td class="last-column bg-primary text-white">Escaneamento 3D rápido e sem incômodo</td>
             </tr>
             <tr>
@@ -195,7 +195,7 @@
     </div>
   </section>
 
-  <section class="service">
+  <section id="conteudos" class="service">
     <div class="container text-center">
       <h1 class="mx-auto">Você Tem Medo de Fazer Implantes? Nós temos a Solução.</h1>
       <p class="mx-auto">Com tecnologia digital, empatia e cuidado, a Implantare transforma o medo em confiança — e
@@ -339,92 +339,178 @@
           transparência — para que você se sinta confiante e bem cuidado o tempo todo.</p>
       </div>
 
-      <div class="timeline">
+      <div class="d-none d-md-block">
+        <div class="timeline">
 
-        <div class="row align-items-center mb-5">
-          <div class="col-md-5 text-end">
-            <h5 class="fw-bold">Consulta Inicial com Escuta Ativa</h5>
-            <p>Nada de pressa. Ouvimos você com atenção para entender sua história, suas necessidades e seus objetivos.
-            </p>
-          </div>
-          <div class="col-md-2 text-center position-relative">
-            <div class="timeline-icon mx-auto">
-              <img src="./assets/icons/processes-1.svg"
-                class="img-fluid p-2 bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+          <div class="row align-items-center mb-5">
+            <div class="col-md-5 text-end">
+              <h5 class="fw-bold">Consulta Inicial com Escuta Ativa</h5>
+              <p>Nada de pressa. Ouvimos você com atenção para entender sua história, suas necessidades e seus
+                objetivos.
+              </p>
             </div>
-            <div class="timeline-line"></div>
+            <div class="col-md-2 text-center position-relative">
+              <div class="timeline-icon mx-auto">
+                <img src="./assets/icons/processes-1.svg"
+                  class="img-fluid bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+              </div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="col-md-5"></div>
           </div>
-          <div class="col-md-5"></div>
-        </div>
 
-        <div class="row align-items-center mb-5">
-          <div class="col-md-5"></div>
-          <div class="col-md-2 text-center position-relative">
-            <div class="timeline-icon mx-auto">
-              <div class="">
-                <img src="./assets/icons/processes-2.svg"
+          <div class="row align-items-center mb-5">
+            <div class="col-md-5"></div>
+            <div class="col-md-2 text-center position-relative">
+              <div class="timeline-icon mx-auto">
+                <div class="">
+                  <img src="./assets/icons/processes-2.svg"
+                    class="img-fluid bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+                </div>
+
+              </div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="col-md-5">
+              <h5 class="fw-bold">Escaneamento Digital Intraoral 3D</h5>
+              <p>Em poucos minutos, capturamos imagens da sua boca com conforto e precisão — sem moldes, sem incômodo.
+              </p>
+            </div>
+          </div>
+
+          <div class="row align-items-center mb-5">
+            <div class="col-md-5 text-end">
+              <h5 class="fw-bold">Consulta Inicial com Escuta Ativa</h5>
+              <p>Nada de pressa. Ouvimos você com atenção para entender sua história, suas necessidades e seus
+                objetivos.
+              </p>
+            </div>
+            <div class="col-md-2 text-center position-relative">
+              <div class="timeline-icon mx-auto">
+                <img src="./assets/icons/processes-3.svg"
+                  class="img-fluid bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+              </div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="col-md-5"></div>
+          </div>
+
+          <div class="row align-items-center mb-5">
+            <div class="col-md-5"></div>
+            <div class="col-md-2 text-center position-relative">
+              <div class="timeline-icon mx-auto">
+                <img src="./assets/icons/processes-4.svg"
                   class="img-fluid p-2 bg-white rounded-circle p-3 border border-5 border-primary" alt="">
               </div>
-
+              <div class="timeline-line"></div>
             </div>
-            <div class="timeline-line"></div>
-          </div>
-          <div class="col-md-5">
-            <h5 class="fw-bold">Escaneamento Digital Intraoral 3D</h5>
-            <p>Em poucos minutos, capturamos imagens da sua boca com conforto e precisão — sem moldes, sem incômodo.</p>
-          </div>
-        </div>
-
-
-        <div class="row align-items-center mb-5">
-          <div class="col-md-5 text-end">
-            <h5 class="fw-bold">Consulta Inicial com Escuta Ativa</h5>
-            <p>Nada de pressa. Ouvimos você com atenção para entender sua história, suas necessidades e seus objetivos.
-            </p>
-          </div>
-          <div class="col-md-2 text-center position-relative">
-            <div class="timeline-icon mx-auto">
-              <img src="./assets/icons/processes-3.svg"
-                class="img-fluid p-2 bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+            <div class="col-md-5">
+              <h5 class="fw-bold">Escaneamento Digital Intraoral 3D</h5>
+              <p>Em poucos minutos, capturamos imagens da sua boca com conforto e precisão — sem moldes, sem incômodo.
+              </p>
             </div>
-            <div class="timeline-line"></div>
           </div>
-          <div class="col-md-5"></div>
-        </div>
 
-        <div class="row align-items-center mb-5">
-          <div class="col-md-5"></div>
-          <div class="col-md-2 text-center position-relative">
-            <div class="timeline-icon mx-auto">
-              <img src="./assets/icons/processes-4.svg"
-                class="img-fluid p-2 bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+          <div class="row align-items-center mb-5">
+            <div class="col-md-5 text-end">
+              <h5 class="fw-bold">Consulta Inicial com Escuta Ativa</h5>
+              <p>Nada de pressa. Ouvimos você com atenção para entender sua história, suas necessidades e seus
+                objetivos.
+              </p>
             </div>
-            <div class="timeline-line"></div>
-          </div>
-          <div class="col-md-5">
-            <h5 class="fw-bold">Escaneamento Digital Intraoral 3D</h5>
-            <p>Em poucos minutos, capturamos imagens da sua boca com conforto e precisão — sem moldes, sem incômodo.</p>
-          </div>
-        </div>
-
-        <div class="row align-items-center mb-5">
-          <div class="col-md-5 text-end">
-            <h5 class="fw-bold">Consulta Inicial com Escuta Ativa</h5>
-            <p>Nada de pressa. Ouvimos você com atenção para entender sua história, suas necessidades e seus objetivos.
-            </p>
-          </div>
-          <div class="col-md-2 text-center position-relative">
-            <div class="timeline-icon mx-auto">
-              <img src="./assets/icons/processes-5.svg"
-                class="img-fluid p-2 bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+            <div class="col-md-2 text-center position-relative">
+              <div class="timeline-icon mx-auto">
+                <img src="./assets/icons/processes-5.svg"
+                  class="img-fluid p-2 bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+              </div>
+              <div class="timeline-lined"></div>
             </div>
-            <div class="timeline-lined"></div>
+            <div class="col-md-5"></div>
           </div>
-          <div class="col-md-5"></div>
-        </div>
 
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="d-md-none d-block">
+        <div class="timeline">
+
+          <div class="mx-auto mb-5">
+            <div class="text-center">
+              <h5 class="fw-bold">Consulta Inicial com Escuta Ativa</h5>
+              <p class="mx-auto">Nada de pressa. Ouvimos você com atenção para entender sua história, suas necessidades
+                e
+                seus objetivos.
+              </p>
+
+              <div class="timeline-icon mx-auto">
+                <img src="./assets/icons/processes-1.svg"
+                  class="img-fluid bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+              </div>
+            </div>
+            <div class="col-md-5"></div>
+          </div>
+
+          <div class="mb-5">
+            <div class="text-center">
+              <div class="timeline-icon mx-auto">
+                <h5 class="fw-bold">Escaneamento Digital Intraoral 3D</h5>
+                <p class="mx-auto">Em poucos minutos, capturamos imagens da sua boca com conforto e precisão — sem
+                  moldes,
+                  sem incômodo.
+                </p>
+                <img src="./assets/icons/processes-2.svg"
+                  class="img-fluid bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-5">
+            <div class="text-center">
+              <h5 class="fw-bold">Consulta Inicial com Escuta Ativa</h5>
+              <p class="mx-auto">Nada de pressa. Ouvimos você com atenção para entender sua história, suas necessidades
+                e
+                seus objetivos.
+              </p>
+              <div class="timeline-icon mx-auto">
+
+                <img src="./assets/icons/processes-3.svg"
+                  class="img-fluid bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-5">
+            <div class="text-center">
+              <h5 class="fw-bold">Escaneamento Digital Intraoral 3D</h5>
+              <p class="mx-auto">Em poucos minutos, capturamos imagens da sua boca com conforto e precisão — sem moldes,
+                sem
+                incômodo.</p>
+              <div class="timeline-icon mx-auto">
+                <img src="./assets/icons/processes-4.svg"
+                  class="img-fluid p-2 bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <div class="text-center">
+              <h5 class="fw-bold">Consulta Inicial com Escuta Ativa</h5>
+              <p class="mx-auto">Nada de pressa. Ouvimos você com atenção para entender sua história, suas necessidades
+                e
+                seus objetivos.
+              </p>
+              <div class="timeline-icon mx-auto">
+                <img src="./assets/icons/processes-5.svg"
+                  class="img-fluid p-2 bg-white rounded-circle p-3 border border-5 border-primary" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
+
   </section>
 
 
@@ -560,7 +646,7 @@
     <div class="container">
 
       <div class="row align-items-center">
-        <div class="col-12 col-md-5">
+        <div class="col-12 col-md-5 text-center text-md-start">
           <h1 class="title">O que nossos pacientes dizem sobre nós!</h1>
           <p class="text">Histórias reais de quem voltou a sorrir com confiança e a autoestima com a Implantare Clinic
           </p>
@@ -570,14 +656,13 @@
           <swiper-container class="mySwiperd" pagination="true" pagination-clickable="true" space-between="0"
             slides-per-view="2" autoplay="false" loop="true" breakpoints='{
             "0": { "slidesPerView": 1 },
-            "768": { "slidesPerView": 2 }
+            "1200": { "slidesPerView": 2 }
           }'>
             <swiper-slide>
               <div class="card position-relative text-center border-0 shadow-sm rounded-4 mt-5" style="width: 18rem;">
                 <div class="position-absolute top-0 start-50" style="width: 120px; transform: translate(-50%, -25%);">
-                  <img
-                    src="https://lh3.googleusercontent.com/a-/ALV-UjUkTNPUltwyQRPt_w7WqErURGZcMkgZ-uGc5kdbTkM0XHA6jhk=w72-h72-p-rp-mo-br100"
-                    alt="Foto de Maria C." class="img-fluid rounded-circle border border-5 border-white shadow"
+                  <img src="./assets/images/review-1.png" alt="Foto de Maria C."
+                    class="img-fluid rounded-circle border border-5 border-white shadow"
                     style="width: 120px; height: 120px; object-fit: cover;">
                   <div class="position-absolute bottom-0 end-0  rounded-circle shadow-sm p-1"
                     style="width: 40px; height: 41px;">
@@ -591,8 +676,7 @@
                   <img src="./assets/icons/stars.png" alt="estrelas dos comentarios" class="p-0 m-0 img-fluid">
 
                   <p class="card-text">
-                    "Clinica maravilhosa! Muito aconchegante e com profissionais incríveis. Adorei o atendimento da
-                    Mayara, muito simpática. Espero voltar mais vezes."
+                    "Clinica maravilhosa! Muito aconchegante e com profissionais incríveis. Adorei o atendimento!"
                   </p>
                 </div>
               </div>
@@ -601,7 +685,7 @@
             <swiper-slide>
               <div class="card position-relative text-center border-0 shadow-sm rounded-4 mt-5" style="width: 18rem;">
                 <div class="position-absolute top-0 start-50" style="width: 120px; transform: translate(-50%, -25%);">
-                  <img src="https://i.imgur.com/kv3T22A.jpg" alt="Foto de Maria C."
+                  <img src="./assets/images/review-2.png" alt="Foto de Maria C."
                     class="img-fluid rounded-circle border border-5 border-white shadow"
                     style="width: 120px; height: 120px; object-fit: cover;">
                   <div class="position-absolute bottom-0 end-0  rounded-circle shadow-sm p-1"
@@ -611,12 +695,12 @@
                 </div>
 
                 <div class="card-body" style="padding-top: 100px;">
-                  <h5 class="card-title mb-0 pb-0">Maria C.</h5>
+                  <h5 class="card-title mb-0 pb-0">Juliana Pinheiro</h5>
 
                   <img src="./assets/icons/stars.png" alt="estrelas dos comentarios" class="p-0 m-0 img-fluid">
 
                   <p class="card-text">
-                    "Atendimento impecável e resultado surpreendente."
+                    "Ótimos profissionais, ambiente acolhedor, indico para todos. Conheçam a implantare clinic 😁♥️"
                   </p>
                 </div>
               </div>
@@ -625,7 +709,7 @@
             <swiper-slide>
               <div class="card position-relative text-center border-0 shadow-sm rounded-4 mt-5" style="width: 18rem;">
                 <div class="position-absolute top-0 start-50" style="width: 120px; transform: translate(-50%, -25%);">
-                  <img src="https://i.imgur.com/kv3T22A.jpg" alt="Foto de Maria C."
+                  <img src="./assets/images/review-3.png" alt="Foto de Maria C."
                     class="img-fluid rounded-circle border border-5 border-white shadow"
                     style="width: 120px; height: 120px; object-fit: cover;">
                   <div class="position-absolute bottom-0 end-0  rounded-circle shadow-sm p-1"
@@ -635,93 +719,18 @@
                 </div>
 
                 <div class="card-body" style="padding-top: 100px;">
-                  <h5 class="card-title mb-0 pb-0">Maria C.</h5>
+                  <h5 class="card-title mb-0 pb-0">Cris Lima</h5>
 
                   <img src="./assets/icons/stars.png" alt="estrelas dos comentarios" class="p-0 m-0 img-fluid">
 
                   <p class="card-text">
-                    "Atendimento impecável e resultado surpreendente."
+                    "A clinica oferece ótimos serviços, os profissionais são atenciosos. Com certeza vou indicar
+                    para os amigos."
                   </p>
                 </div>
               </div>
             </swiper-slide>
           </swiper-container>
-
-
-          <!-- <div class="card position-relative text-center border-0 shadow-sm rounded-4 mt-5" style="width: 18rem;">
-            <div class="position-absolute top-0 start-50" style="width: 120px; transform: translate(-50%, -25%);">
-              <img src="https://i.imgur.com/kv3T22A.jpg" alt="Foto de Maria C."
-                class="img-fluid rounded-circle border border-5 border-white shadow"
-                style="width: 120px; height: 120px; object-fit: cover;">
-              <div class="position-absolute bottom-0 end-0  rounded-circle shadow-sm p-1"
-                style="width: 40px; height: 41px;">
-                <img src="./assets/icons/google.png" alt="icone do google" class="img-fluid">
-              </div>
-            </div>
-
-            <div class="card-body" style="padding-top: 100px;">
-              <h5 class="card-title fw-bold">Maria C.</h5>
-
-              <img src="./assets/icons/stars.png" alt="estrelas dos comentarios" class="p-0 m-0 img-fluid">
-
-              <p class="card-text text-muted">
-                "Atendimento impecável e resultado surpreendente."
-              </p>
-            </div>
-          </div> -->
-
-          <!-- <div class="card position-relative text-center border-0 shadow-sm rounded-4 mt-5" style="width: 18rem;">
-  
-            <div class="position-absolute top-0 start-50 translate-middle" style="width: 120px;">
-              <img src="https://i.imgur.com/kv3T22A.jpg" alt="Foto de Maria C."
-                class="img-fluid rounded-circle border border-5 border-white shadow"
-                style="width: 120px; height: 120px; object-fit: cover;">
-              <div class="position-absolute bottom-0 end-0 bg-white rounded-circle shadow-sm p-1"
-                style="width: 32px; height: 32px;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
-                  alt="Ícone do Google" class="img-fluid">
-              </div>
-            </div>
-          
-            <div class="card-body" style="padding-top: 80px;">
-              <h5 class="card-title fw-bold">Maria C.</h5>
-              
-              <div class="text-warning fs-4 mb-2">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-              </div>
-          
-              <p class="card-text text-muted">
-                "Atendimento impecável e resultado surpreendente."
-              </p>
-            </div>
-          </div> -->
-
-
-          <!-- <div class="card text-center border-0 shadow-sm rounded-4 mt-5" style="width: 18rem;">
-            <div class="position-absolute top-0 start-50 translate-middle-x" style="width: 120px;">
-              <img src="https://i.imgur.com/kv3T22A.jpg" alt="Foto de Maria C."
-                class="img-fluid rounded-circle border border-5 border-white shadow"
-                style="width: 120px; height: 120px; object-fit: cover;">
-              <div class="position-absolute bottom-0 end-0 bg-white rounded-circle shadow-sm p-1"
-                style="width: 32px; height: 32px;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
-                  alt="Ícone do Google" class="img-fluid">
-              </div>
-            </div>
-
-            <div class="card-body" style="padding-top: 140px;">
-              <h5 class="card-title fw-bold mb-0">Maria C.</h5>
-              <img src="./assets/icons/stars.png" alt="estrelas dos comentarios" class="p-0 m-0 img-fluid">
-              <p class="card-text text-muted">
-                "Atendimento impecável e resultado surpreendente."
-              </p>
-            </div>
-          </div> -->
-
         </div>
       </div>
 
@@ -881,6 +890,48 @@
 
 
 
+  <footer class="bg-secondary mt-5 py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-4 mt-3 text-center">
+          <img src="./assets/icons/logo-footer.png" alt="">
+          <div class="mt-3">
+            <img src="./assets/icons/icone-facebook.svg" alt="">
+            <img src="./assets/icons/icone-whatsapp.svg" alt="">
+            <img src="./assets/icons/icone-instagram.svg" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-3">
+          <h4>Implantare Clinic</h4>
+          <p>Edifício Giovanni Fulco</p>
+          <p>Avenida Prudente de Morais, 744 – Sala 1310, Tirol – Natal/RN CEP: 59020-510</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.4653910826114!2d-35.2023444!3d-5.7897435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffb05a575115%3A0xc9c39637dfe703d2!2sImplantare%20Clinic%20Natal-RN%20-%20Cl%C3%ADnica%20Odontol%C3%B3gica%20Especializada%20em%20Implantes%20Dent%C3%A1rios%20e%20Pr%C3%B3teses!5e0!3m2!1spt-BR!2sca!4v1755801017344!5m2!1spt-BR!2sca"
+            width="324" height="191" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="contato" class="col-12 col-md-4 mt-3">
+          <h4>Contato</h4>
+          <p> <span><img src="./assets/icons/icone-email.png"></span>
+            implantareclinic@gmail.com</p>
+          <p><span><img src="./assets/icons/icone-telefone.png"></span>
+            (84) 2010-8299</p>
+          <p><span><img src="./assets/icons/icone-wpp-footer.svg"></span>
+            <strong>(84) 99943-8010</strong>
+          </p>
+          <h4>Horário de Atendimento</h4>
+          <p>• Segunda a Sexta: 8h30 – 18h</p>
+          <p>• Sábado: 8h – 12h</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="bg-white">
+    <div class="container">
+      <p class="text-center primary-color pt-3 pb-0">© 2025 Implantare Clinic | todos os direitos reservados</p>
+    </div>
+  </div>
 
 
 

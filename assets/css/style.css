@@ -20,14 +20,16 @@
 }
 
 .background {
-    background-image: url('../images/Pasted image (2).png');
+    background-image: url('../images/background-top.png');
     background-size: cover;
 
     /* height: 100vh; */
     background-position: center;
 
-    height: 709px;
+    /* height: 709px; */
     /* height: 1150px; */
+
+    min-height: 709px;
 }
 
 
@@ -37,10 +39,11 @@
     background-color: var(--custom-secondary-color);
 }
 
-/* .first-page {
-    background-image: url('../images/Pasted image (2).png');
-    background-size: cover;
-} */
+.first-page {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
 
 .first-page p {
     font-family: "Eina03-Bold";
@@ -501,7 +504,33 @@ swiper-slide {
 } */
 
 .benefit {
-    width: 55%;
+    background-image: url('../images/background-tables7.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+
+    /* height: 100vh; */
+    /* background-position: center; */
+
+    /* height: 709px; */
+    /* height: 1150px; */
+
+    /* min-height: 900px; */
+    /* min-height: 1226px; */
+}
+
+.benefit h1 {
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.benefit p {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 806px;
+}
+
+.benefit-table {
+    width: 70%;
     /* height: 731.649px; */
     flex-shrink: 0;
     margin: 0 auto;
@@ -535,7 +564,7 @@ swiper-slide {
     border-radius: 38px;
     background: #F6E6E9;
     box-shadow: -5px 6px 12.6px 0 rgba(0, 0, 0, 0.30);
-    backdrop-filter: blur(8.100000381469727px);
+    /* backdrop-filter: blur(8.100000381469727px); */
 }
 
 /* .benefit-table hr {
@@ -564,6 +593,13 @@ swiper-slide {
 .benefit-table table td:last-child,
 .benefit-table table tr:last-child td:last-child {
     border-top: 1px solid #fff;
+    /* border-image: linear-gradient(to right,
+            transparent 0%,
+            transparent 1%,
+            white 1%,
+            white 99%,
+            transparent 99%,
+            transparent 100%) 1 stretch; */
 }
 
 .benefit-table table td:last-child {
@@ -587,4 +623,41 @@ swiper-slide {
     border-collapse: separate;
     border-spacing: 0;
     padding-left: 37px;
+
+    /* overflow: visible;
+    position: relative; */
+}
+
+.benefit-table {
+    overflow: visible !important;
+    /* permite imagem sair da tabela */
+    position: relative;
+}
+
+.benefit-table table {
+    overflow: visible;
+}
+
+.benefit-table th {
+    position: relative;
+    overflow: visible;
+    /* Permite que a imagem saia da célula */
+}
+
+.benefit-table img {
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* width: 120px; */
+}
+
+footer h4 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 24px; /* 150% */
 }
