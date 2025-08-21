@@ -50,8 +50,8 @@
         padding: 35px;
     }
 
-    .timeline-line {
-        height: 200%;
+    .processes .timeline {
+        padding: 3rem;
     }
 
 }
