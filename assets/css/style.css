@@ -464,6 +464,12 @@ swiper-slide {
     margin: 0;
     padding: 0;
 } */
+
+.ask {
+    background-image: url('../images/background-ask.png');
+    background-repeat: no-repeat;
+}
+
 .ask .text h5 {
     font-size: 32px;
     line-height: 40px;
@@ -659,5 +665,6 @@ footer h4 {
 
 footer p {
     font-size: 16px;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
+    /* 150% */
 }
