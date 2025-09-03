@@ -8,6 +8,16 @@
 }
 
 @media (max-width: 768px) {
+    .first-page {
+        height: 1060px;
+    }
+    .video-image {
+        width: 80%;
+        height: 80%;
+
+        object-fit: cover;
+    }
+
     .first-page-container {
         margin: 0 auto;
         max-width: 80%;
