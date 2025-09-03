@@ -3,6 +3,7 @@
         margin: 0 auto;
         max-width: 80%;
     }
+
     .btn-primary {
         width: 100%;
     }
@@ -54,4 +55,34 @@
         padding: 3rem;
     }
 
+
+    /* .benefit-table {
+        border-radius: 38px;
+    }
+
+    .benefit-table table tr:first-child th:last-child {
+        border-bottom: none;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .benefit-table table tr:last-child td:last-child {
+        border-end-start-radius:10px;
+        border-end-end-radius: 10px;
+    }
+
+    .benefit-table table {
+        padding-left: 8px;
+    } */
+    
+    .benefit th,
+    .benefit td {
+        padding: 0;
+        padding-top: 20px;
+        font-size: 12px;
+    }
+
+    .benefit-table table td:last-child {
+        font-size: 12px;
+    }
 }

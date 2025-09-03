@@ -20,7 +20,7 @@
 }
 
 .background {
-    background-image: url('../images/background-top.png');
+    background-image: url('../images/background-top1.png');
     background-size: cover;
 
     /* height: 100vh; */
@@ -350,7 +350,7 @@ swiper-slide {
 
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: contain;
+    /* background-size: contain; */
     mix-blend-mode: multiply;
 }
 
@@ -567,7 +567,8 @@ swiper-slide {
     font-size: 16px;
 }
 
-.benefit-table {
+.benefit-table,
+.benefit-table .table {
     border-radius: 38px;
     background: #F6E6E9;
     box-shadow: -5px 6px 12.6px 0 rgba(0, 0, 0, 0.30);
@@ -637,7 +638,6 @@ swiper-slide {
 
 .benefit-table {
     overflow: visible !important;
-    /* permite imagem sair da tabela */
     position: relative;
 }
 
@@ -648,7 +648,6 @@ swiper-slide {
 .benefit-table th {
     position: relative;
     overflow: visible;
-    /* Permite que a imagem saia da célula */
 }
 
 .benefit-table img {
@@ -656,7 +655,6 @@ swiper-slide {
     top: -40%;
     left: 50%;
     transform: translateX(-50%);
-    /* width: 120px; */
 }
 
 footer h4 {
@@ -667,5 +665,4 @@ footer h4 {
 footer p {
     font-size: 16px;
     line-height: 24px;
-    /* 150% */
 }
