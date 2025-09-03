@@ -60,6 +60,16 @@
     padding-bottom: 11.5rem;
 }
 
+
+.video .video-button {
+    border-radius: 55px;
+    background-color: transparent;
+}
+
+.video button {
+    border: transparent;
+}
+
 /* .video h1 {
     padding-bottom: 0.813rem;
 } */
