@@ -5,6 +5,14 @@
 
         object-fit: cover;
     }
+
+    /* .background {    
+        min-height: 1500px;
+    } */
+
+    /* .faixa {
+        margin-bottom: -90px;
+    } */
 }
 
 @media (max-width: 768px) {
