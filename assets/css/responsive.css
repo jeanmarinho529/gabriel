@@ -6,19 +6,30 @@
         object-fit: cover;
     }
 
-    /* .background {    
-        min-height: 1500px;
-    } */
+
 
     /* .faixa {
         margin-bottom: -90px;
     } */
 }
 
-@media (max-width: 768px) {
-    .first-page {
-        height: 1060px;
+@media (max-width: 767px) {
+    .background {
+        background-image: url('../images/background-top2.png');
     }
+
+    .img-redonda {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+}
+
+
+@media (max-width: 768px) {
+    /* .first-page {
+        height: 1060px;
+    } */
+
     .video-image {
         width: 80%;
         height: 80%;
@@ -113,3 +124,4 @@
         font-size: 12px;
     }
 }
+

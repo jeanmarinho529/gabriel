@@ -19,6 +19,11 @@
     line-height: 28px;
 }
 
+.img-redonda {
+    border-bottom-left-radius: 165px;   /* canto inferior esquerdo */
+    border-bottom-right-radius: 150px;  /* canto inferior direito */
+  }
+
 .background {
     background-image: url('../images/background-top.png');
     background-size: cover;
@@ -36,16 +41,6 @@
 .faixa {
     margin-bottom: -10px;
 }
-
-/* .first-page::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-} */
 
 
 .top-bar {
